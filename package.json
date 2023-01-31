@@ -1,14 +1,14 @@
 {
-  "name": "gtin-tools",
+  "name": "@chumsinc/gtin-tools",
   "version": "1.0.1",
   "description": "GTIN Tools for CHUMS",
-  "main": "index.js",
+  "main": "main.js",
+  "types": "main.d.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
-  "types": "main.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UtahGooner/gtin-tools.git"
@@ -18,7 +18,7 @@
     "UPC",
     "barcode"
   ],
-  "author": "Steve Montgomery",
+  "author": "Steve Montgomery <dev@chums.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/UtahGooner/gtin-tools/issues"

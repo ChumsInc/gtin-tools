@@ -32,7 +32,6 @@ export function trimUPC(digits:string):string {
 
 
 export function parseCheckDigit(str: string, format: BarcodeType = 'GTIN-12'):string {
-    const digitSum = [0, 0];
     let digits = trimUPC(str);
     const stdDigits = barcodeDigits[format];
     if (!digits || (digits.length < (stdDigits - 1)) || (digits.length > stdDigits)) {
@@ -83,7 +82,7 @@ export function parseGTINFormat(str:string):BarcodeType|null {
     }
 }
 
-export function formatUPC(upc:string, raw:boolean = false) {
+export function formatGTIN(upc:string, raw:boolean = false) {
     if (!couldBeGTIN(upc)) {
         return upc;
     }
