@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/UtahGooner/gtin-tools/issues"
   },
-  "homepage": "https://github.com/UtahGooner/gtin-tools#readme"
+  "homepage": "https://github.com/UtahGooner/gtin-tools#readme",
+  "devDependencies": {
+    "auto-changelog": "^2.4.0"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false
+  }
 }
