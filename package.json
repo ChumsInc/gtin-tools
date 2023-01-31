@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
+  "types": "main.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UtahGooner/gtin-tools.git"
