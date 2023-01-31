@@ -1,0 +1,25 @@
+{
+  "name": "gtin-tools",
+  "version": "1.0.0",
+  "description": "GTIN Tools for CHUMS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtahGooner/gtin-tools.git"
+  },
+  "keywords": [
+    "GTIN-12",
+    "UPC",
+    "barcode"
+  ],
+  "author": "Steve Montgomery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UtahGooner/gtin-tools/issues"
+  },
+  "homepage": "https://github.com/UtahGooner/gtin-tools#readme"
+}
