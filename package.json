@@ -1,6 +1,6 @@
 {
   "name": "gtin-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GTIN Tools for CHUMS",
   "main": "index.js",
   "type": "module",
