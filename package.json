@@ -1,11 +1,11 @@
 {
   "name": "@chumsinc/gtin-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GTIN Tools for CHUMS",
   "type": "module",
   "exports": {
     ".": {
-      "import":  "./main.js"
+      "import": "./main.js"
     }
   },
   "main": "main.js",
