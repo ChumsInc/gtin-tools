@@ -2,9 +2,14 @@
   "name": "@chumsinc/gtin-tools",
   "version": "1.0.1",
   "description": "GTIN Tools for CHUMS",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import":  "./main.js"
+    }
+  },
   "main": "main.js",
   "types": "main.d.ts",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "auto-changelog -p && git add CHANGELOG.md"
